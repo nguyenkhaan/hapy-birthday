@@ -3,11 +3,16 @@
     --text-font: 'Boiling Demo Black'; 
     --happy-font: 'TRIAL Englisch'; 
     --para-font: 'MT Dalat Sans'; 
+    --time-font: 'DS-Digital'; 
 }
 * {
     box-sizing: border-box; 
-    
     text-align: center;
+  
+}
+label 
+{
+    font-family: 'DS Digital';
 }
 body 
 {
@@ -20,6 +25,7 @@ body
     background-color: #BCF2F6;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .my-form-1
 {
@@ -50,7 +56,6 @@ h2
     margin-bottom: -2px; 
     font-size: 20px; 
     font-family: var(--happy-font); 
-    
 }
 h2:nth-child(3) 
 {
@@ -143,6 +148,19 @@ audio
     position: relative; 
     margin-top: 15px; 
     margin-left: 15px; 
+}
+label 
+{
+    font-family: var(--time-font);
+    font-size: 40px; 
+    margin: 0px; 
+    display: inline;
+    font-weight: 600;
+    position: absolute;
+    right: 0; 
+    top: 0; 
+    right: 10px; 
+    top: 10px; 
 }
 i {
     margin: auto; 
